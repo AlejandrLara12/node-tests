@@ -42,3 +42,6 @@ npm i supertest@2.0.0 --save-dev
 
 
 ## Testing Express Applications: Part 1&2
+
+## Organizing Test With describe()
+it's a function from mocha, it allows you to group tests together
