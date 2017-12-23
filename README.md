@@ -35,3 +35,10 @@ expect().toBe       for num, str
 expect().toEqual    for obj
 
 might set 'done' parameter for asyc functions
+
+
+supertest: https://github.com/visionmedia/supertest
+npm i supertest@2.0.0 --save-dev
+
+
+## Testing Express Applications: Part 1&2
