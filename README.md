@@ -45,3 +45,10 @@ npm i supertest@2.0.0 --save-dev
 
 ## Organizing Test With describe()
 it's a function from mocha, it allows you to group tests together
+
+## Test Spies
+rewire: npm i rewire@2.5.2 --save-dev
+  > let app = rewire('./app.js');
+  what 'rewire' does is to 'require' our file and adds to functions
+  app.__set__
+  app.__get__
